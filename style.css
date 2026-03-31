@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(to right, rgb(169, 201, 196) 30%, rgb(133, 123, 177) 60%, rgb(191, 167, 167) 90%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.container{
+    position: relative;
+}
+
+.Box{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(57, 29, 77), rgb(31, 31, 103));
+    padding: 20px 30px 20px 30px
+    
+}
+
+.Tittleconversor{
+    color: rgb(159, 201, 188);
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.infoconversor{
+    color: azure;
+}
+
+.info_tittle{
+    color: rgb(65, 189, 160);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#camporeal{
+    border: 2px solid rgb(7, 7, 59);
+    border-radius: 7px;
+    padding: 6px;
+    font-size: 16px;
+    background-color: rgb(189, 206, 200);
+}
+
+::placeholder{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(144, 152, 159);
+}
+
+#buttonenviar {
+    border: 1px solid blueviolet;
+    border-radius: 7px;
+    padding: 6px;
+    font-size: 16px;
+    background-color: rgb(154, 84, 220);
+    color: rgb(220, 201, 177);
+}
+#buttonenviar:hover{
+    border: 3px solid rgb(200, 200, 216);
+    background-color: antiquewhite;
+    color: black;
+    cursor: pointer;
+}
+
+.result{
+    color: rgb(142, 210, 210);
+}
+.resultadogeral{
+    background: linear-gradient(to right, rgb(193, 199, 201) 40%, rgb(168, 183, 187) 90%);
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 140px;
+    font-size: 15px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+.Apagar{
+    border: 1px solid blueviolet;
+    border-radius: 7px;
+    padding: 6px;
+    font-size: 16px;
+    background-color: rgb(154, 84, 220);
+    color: rgb(220, 201, 177);
+}
+.Apagar:hover{
+    border: 3px solid rgb(200, 200, 216);
+    background-color: antiquewhite;
+    color: black;
+    cursor: pointer;
+}
+
+.resultadoDolar{
+    margin-top: -5px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+    gap: 10px;
+    color: rgb(11, 3, 3)
+}
+
+.resultadoEuro{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+    gap: 10px;
+    color: rgb(19, 7, 7)
+}
+#resDolar, #resEuro{
+    color: darkblue;
+    font-size: 21px;
+}
+
+
+
+
+
+
+

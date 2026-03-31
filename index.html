@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor Master</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Box">
+            <h1 class="Tittleconversor">Conversor master</h1>
+            <p class="infoconversor">Um conversor que transforma Real pra Dólar e Euro</p><br>
+            <form>
+                <p class="info_tittle">informe um valor em real:</p><input type="text" id="camporeal" placeholder="Digite aqui">          
+                <input type="submit" id="buttonenviar" onclick="Enviar(event)" value="Converter"><br>
+                <div class="camporesultado">
+                    <h2 class="result">Resultados:</h2>
+                    <div class="resultadogeral"><br>
+                        <p class="resultadoDolar">Dólar: <span id="resDolar"></span></p>
+                        <hr>
+                        <p class="resultadoEuro">Euro: <span id="resEuro"></span></p>
+                    </div><br>
+                    <button class="Apagar" onclick="apagar(event)">Apagar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
