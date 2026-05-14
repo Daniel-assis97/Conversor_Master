@@ -52,6 +52,12 @@ function Enviar(event){
     const ConvertDolar = valorFull/cotacaoDolar
     const ConvertEuro = valorFull/cotacaoEuro
 
+    console.log("--- Conversão Realizada ---");
+    console.log(`Valor inserido: R$ ${valorFull}`);
+    console.log(`Cotação Dólar usada: ${cotacaoDolar}`);
+    console.log(`Cotação Euro usada: ${cotacaoEuro}`);
+    console.log("---------------------------");
+
     spanResultadoEuro.innerHTML = `${ConvertEuro.toLocaleString("pt-br", {style:'currency', currency: 'EUR'})}`
     spanResultadoDolar.innerHTML = `${ConvertDolar.toLocaleString("en", {style:'currency', currency: 'USD'})}`
     }, 500)
